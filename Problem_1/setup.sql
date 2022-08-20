@@ -5,9 +5,7 @@ GO
 CREATE TABLE pizzaPlace.orders (
     customerId VARCHAR (25) NOT NULL,
     order VARCHAR (25) NOT NULL,
-    startDate DATE NOT NULL,
-    endDate DATE NOT NULL,
-    PRIMARY KEY (customerId)
+    orderDate DATE NOT NULL
 )
 
 GO
